@@ -1,0 +1,32 @@
+body{
+    margin: center;
+    font-family: 'Open';
+    background-color: lightgray;
+    background-size: cover;
+    font-style: normal;
+    padding: center;
+}
+a{
+    color:  #bc2035;
+    text-decoration: none;
+    border: solid;
+    border-radius: 8px;
+    border-color: #bc2035;
+    background-color: white;
+    padding: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+a:hover{
+    color: white;
+    background-color:  #bc2035;
+}
+a:active{
+    color:#bc2035;
+    background-color: white;
+}
+@font-face {
+    font-family: Open;
+    src: url(fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
+    src: url(fonts/opensans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}

@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+}
+a{
+    color:  #bc2035;
+    text-decoration: none;
+    border: solid;
+    border-radius: 8px;
+    border-color: #bc2035;
+    background-color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a:hover{
+    color: white;
+    background-color:  #bc2035;
+}
+a:active{
+    color:#bc2035;
+    background-color: white;
+}

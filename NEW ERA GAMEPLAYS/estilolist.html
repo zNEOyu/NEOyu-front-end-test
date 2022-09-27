@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando listas</title>
+    <style type="text/css">
+        body{
+        background: linear-gradient(to bottom right, lightgray, black);
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        }
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .link a{
+        color:  #bc2035;
+        text-decoration: none;
+        border: solid;
+        border-radius: 8px;
+        border-color: #bc2035;
+        background-color: white;
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        }
+        .link a:hover{
+        color: white;
+        background-color:  #bc2035;
+        }
+        .link a:active{
+            color:#bc2035;
+        background-color: white;
+        }
+        ul{
+            margin: 10px;
+            background-color: rgb(58, 78, 255);
+            padding: 10px;
+            border-radius: 5px;
+            list-style-type: decimal;
+        }
+        li{
+            background-color: #f5bc42;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h1{
+            margin:20px;
+        }
+</style>
+</head>
+<body>
+    <h1>Fazendo listas com estilo usando o CSS</h1>
+    <ul>
+        <a href="https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2022/07/26/1334925802-arroz-branco-18919-768x1024-768x540.jpg"><li>  Arroz</li></a>
+        <li>Feijão</li>
+        <li>Carne</li>
+        <li>Macarrão</li>
+    </ul>
+    <br><br>
+    <div class="link">
+    <a href="boxsizing.html">Voltar</a>
+    <a href="#">Próxima aula</a>
+    </div>
+</body>
+</html>

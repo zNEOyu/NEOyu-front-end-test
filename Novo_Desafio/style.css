@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html{
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.qual{
+    background-color: #333;
+    color: white;
+    border-bottom: 5px solid;
+    border-color: #fd8a24;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.link{
+    color: #fd8a24;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.texto{
+    color: #555;
+    text-align:left;
+    margin: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 35px;
+}
+header{
+    margin: 200px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 75px;
+    padding: 0;
+}
+header p{
+    color: #555;
+}
+hr{
+    margin: 200px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #555;
+}
+.eletronicos{
+    font-size: 35px;
+}
+#carol{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+}
+#data{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    color: rgba(129, 126, 126, 0.459);
+}
+img{
+    padding: 10px;
+}
+.texto h2{
+    color: black;
+}
+.lower{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    color: rgba(129, 126, 126, 0.459);
+}
